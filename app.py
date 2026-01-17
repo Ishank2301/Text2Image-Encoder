@@ -44,7 +44,7 @@ st.title("Word to Image Converter")
 st.write("Save words close to your heart as images. Just upload the doc file and generate an image representing whole doc as pixels.")
 
 # Load an image (ensure the image file is in the same directory or provide the correct path)
-image = Image.open("Bhagvitagita.png")
+image = Image.open("BhagavadGita.png")
 
 # Display the image
 st.image(image, caption="This is an example image of Whole Bhagavad Gita wrapped into a single image.", use_column_width=True)
@@ -79,5 +79,4 @@ if uploaded_file is not None:
         st.download_button("Download Image", file, file_name="binary_image.png", mime="image/png")
 st.write("Created by- Ishank Mishra")
 st.write("Contact me for group projects and collaboration.")
-youtube_logo = Image.open("3 (1) (3).png")
-
+youtube_logo = Image.open("BhagavadGita.png")
