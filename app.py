@@ -47,7 +47,7 @@ st.write("Save words close to your heart as images. Just upload the doc file and
 image = Image.open("BhagavadGita.png")
 
 # Display the image
-st.image(image, caption="This is an example image of Whole Bhagavad Gita wrapped into a single image.", use_column_width=True)
+st.image(image, caption="This is an example image of Whole Bhagavad Gita wrapped into a single image.", use_container_width=True)
 # Upload file
 uploaded_file = st.file_uploader("Choose a DOCX file", type="docx")
 
