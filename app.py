@@ -47,7 +47,7 @@ st.write("Save words close to your heart as images. Just upload the doc file and
 image = Image.open("BhagavadGita.png")
 
 # Display the image
-st.image(image, caption="This is an example image of Whole Bhagavad Gita wrapped into a single image.", use_container_width=True)
+st.image(image, caption="This is an example image of Whole Bhagavad Gita wrapped into a single image.", width="stretch")
 # Upload file
 uploaded_file = st.file_uploader("Choose a DOCX file", type="docx")
 
@@ -70,7 +70,7 @@ if uploaded_file is not None:
     image = binary_to_image(binary_equivalent, color_1=color_1_rgb, color_0=color_0_rgb)
     
     # Display the image
-    st.image(image, caption="Generated Pixelated Image", use_column_width=True)
+    st.image(image, caption="Generated Pixelated Image", width="stretch")
     
     # Save image to a temporary file and provide download link
     image.save("binary_image.png")

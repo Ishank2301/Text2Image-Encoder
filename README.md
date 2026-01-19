@@ -58,7 +58,7 @@ The resulting image is a deterministic visual fingerprint of the document conten
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/Doc2Pixel.git
+git clone https://github.com/your_username/Doc2Pixel.git
 cd Doc2Pixel
 2️⃣ Install dependencies
 pip install -r requirements.txt
